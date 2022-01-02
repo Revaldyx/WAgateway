@@ -2,7 +2,7 @@
 
 
 @section('contents')
-    <title>WaGateway - Add Devices</title>
+    <title>WaGateway - Buat Pesan</title>
 
     <div class="container-fluid">
 

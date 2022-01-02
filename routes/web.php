@@ -30,6 +30,7 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 //route page devices
 Route::get('devices/data_devices', [App\Http\Controllers\HomeController::class, 'data_devices'])->name('data_devices');
 Route::get('devices/data_devices/add', [App\Http\Controllers\Devices::class, 'index'])->name('add_devices');
+Route::get('devices/data_devices/addqrcode', [App\Http\Controllers\Devices::class, 'addqrcode'])->name('qrcode');
 
 //route page pesan keluar
 Route::get('message/pesan_keluar', [App\Http\Controllers\HomeController::class, 'pesan_keluar'])->name('pesan_keluar');

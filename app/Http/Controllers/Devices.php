@@ -10,4 +10,9 @@ class Devices extends Controller
     {
         return view('devices.add');
     }
+
+    public function addqrcode()
+    {
+        return view('devices.qrcode');
+    }
 }
